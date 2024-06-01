@@ -2,7 +2,7 @@ import React from 'react';
 import InstructionsComponent from '../components/instructionsComponent';
 import Layout from './layout';
 import Link from 'next/link';
-import  '../styles/styles.css';
+import  '../styles/style_1.css';
 
 const HomePage: React.FC = () => {
   return (
