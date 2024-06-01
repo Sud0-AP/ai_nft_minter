@@ -1,27 +1,28 @@
 .navbar {
-  background-color: #1c1c1c;
+  background-color: #000000; /* Black background */
   padding: 1rem;
-  border-bottom: 1px solid #8e44ad;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar ul {
   list-style: none;
+  padding: 0;
   display: flex;
-  gap: 2rem;
-  justify-content: center;
 }
 
-.navbar ul li {
-  display: inline;
+.navbar li {
+  margin: 0 10px;
 }
 
-.navbar ul li a {
-  color: #8e44ad;
+.navbar a {
+  color: #9b5de5; /* Purple color for links */
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size:x-large
 }
 
-.navbar ul li a:hover {
-  color: #e0e0e0;
+.navbar a:hover {
+  color: #f3e1ff; /* Light Purple on hover */
+  text-decoration: underline;
 }

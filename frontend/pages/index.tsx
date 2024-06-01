@@ -1,14 +1,17 @@
 import React from 'react';
-import Link from 'next/link';
 import InstructionsComponent from '../components/instructionsComponent';
 import Layout from './layout';
+import Link from 'next/link';
+import  '../styles/theme.css';
 
 const HomePage: React.FC = () => {
   return (
     <Layout>
       <h1>Welcome to the AI NFT Minting DApp</h1>
       <InstructionsComponent />
-      <Link href="/mint">Mint your NFT</Link>
+      <Link href="/mint" legacyBehavior>
+        <a className={"gotoButton"}>Go to the Mint Page ➡️</a>
+      </Link>
     </Layout>
   );
 };

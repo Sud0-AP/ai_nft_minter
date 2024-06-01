@@ -1,8 +1,10 @@
 .footer {
-	background-color: #1c1c1c;
-	color: #8e44ad;
+	background-color: #000000; /* Consistent black background */
+	color: #9b5de5; /* Primary purple color for text */
 	text-align: center;
-	padding: 1rem;
-	border-top: 1px solid #8e44ad;
+	padding: 1rem 0;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
   }
   

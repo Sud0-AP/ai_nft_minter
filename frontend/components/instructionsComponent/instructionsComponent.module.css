@@ -1,9 +1,27 @@
 .instructions {
+	background-color: #1c1c1c; /* Slightly lighter black for contrast */
+	color: #ffffff; /* White text for better readability */
 	padding: 20px;
-	background-color: #1e1e1e;
-	border-radius: 5px;
+	border-radius: 8px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-	color: #e0e0e0;
-	margin-bottom: 2rem;
+	margin: 20px;
+	width: 80%;
+	margin: auto;
+	position: relative;
   }
+  
+  .instructions h2 {
+	color: #9b5de5; /* Purple color for headings */
+	font-size: 2rem;
+  }
+  
+  .instructions ol {
+	padding-left: 20px;
+	font-size: 1.5rem;
+  }
+  
+  .instructions li {
+	margin-bottom: 10px;
+  }
+  
   

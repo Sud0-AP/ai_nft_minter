@@ -14,7 +14,7 @@ module.exports = {
   allowUnlimitedContractSize: true,
   networks: {
     amoy: {
-      url: `https://rpc-amoy.polygon.technology/`,
+      url: `https://polygon-amoy.g.alchemy.com/v2/`+`${process.env.ALCHEMY_API_KEY}`,
       chainId: 80002,
       accounts: [`0x${process.env.PRIVATE_KEY}`],  // Make sure PRIVATE_KEY is correctly formatted
     },
