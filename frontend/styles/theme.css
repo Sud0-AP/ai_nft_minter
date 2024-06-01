@@ -1,36 +1,94 @@
-/* If you want to center all h1 tags globally */
-h1 {
+/* styles.css */
+
+/* Basic HTML and Body Setup */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  background-color: #000000; /* Dark background for better contrast */
+  color: #e0e0e0; /* Light color for readability */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Full Application Width and Centering */
+#__next {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Navbar Styling */
+nav {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #121212; /* Slightly lighter than body for subtle distinction */
+  color: #fff;
   text-align: center;
-  font-size: 3.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
-/* If you only want to target h1 tags within a specific part of your application */
-.page-title h1 {
+/* Footer Styling */
+footer {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #121212; /* Matching navbar for uniform appearance */
+  color: #ccc; /* Slightly dimmer text for less emphasis */
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 0.8rem;
+  z-index: 1000;
 }
 
-.gotoButton {
-  position: fixed; /* Keep it relative to the viewport */
-  right: 20px; /* Distance from the right edge of the viewport */
-  bottom: 20px; /* Distance from the bottom edge of the viewport */
-  padding: 10px 20px; /* Padding inside the button */
-  background-color: #8e44ad; /* Deep purple background */
-  color: white; /* Text color */
-  font-weight: bold; /* Bold text */
-  text-decoration: none; /* No underline */
-  border: none; /* No border */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
-  z-index: 1500; /* High z-index to ensure it's on top of other elements */
-  transition: background-color 0.3s ease-in-out; /* Smooth background color transition on hover */
+/* Links Styling */
+a {
+  color: #9b5de5; /* Theme color for links */
+  text-decoration: none;
 }
 
-.gotoButton:hover {
-  background-color: #732d91; /* Slightly darker purple on hover */
+a:hover {
+  text-decoration: underline; /* Underline on hover for better interaction */
 }
 
-.layoutContainer {
-  position: relative; /* This makes it the reference for absolutely positioned children */
-  min-height: 100vh; /* Ensure it at least covers the viewport height */
-  width: 100%; /* Ensure it covers the full width */
+/* Button Styling */
+.button {
+  background-color: #9b5de5; /* Primary theme color */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #7a3eb5; /* Darker shade on hover */
+}
+
+/* Main Content Card Styling */
+.card {
+  background-color: #222; /* Slightly lighter for content to stand out */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+  width: 80%;
+  max-width: 600px; /* Optimal width for reading */
+  text-align: center; /* Center text for aesthetics */
+  margin: 20px; /* Space around card */
+}
+.centeredTitle {
+  text-align: center;
 }
