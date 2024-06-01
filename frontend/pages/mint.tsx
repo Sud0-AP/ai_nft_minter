@@ -1,7 +1,7 @@
 import React from 'react';
 import MintNFT from './MintNFT';
 import Layout from './layout';
-import  '../styles/style_1.css';
+//import  '../styles/style_1.module.css';
 const MintPage: React.FC = () => {
   return (
     <Layout>

@@ -92,3 +92,40 @@ a:hover {
 .centeredTitle {
   text-align: center;
 }
+
+/* If you want to center all h1 tags globally */
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+/* If you only want to target h1 tags within a specific part of your application */
+.page-title h1 {
+  text-align: center;
+}
+
+.gotoButton {
+  position: fixed; /* Keep it relative to the viewport */
+  right: 20px; /* Distance from the right edge of the viewport */
+  bottom: 20px; /* Distance from the bottom edge of the viewport */
+  padding: 10px 20px; /* Padding inside the button */
+  background-color: #8e44ad; /* Deep purple background */
+  color: white; /* Text color */
+  font-weight: bold; /* Bold text */
+  text-decoration: none; /* No underline */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  z-index: 1500; /* High z-index to ensure it's on top of other elements */
+  transition: background-color 0.3s ease-in-out; /* Smooth background color transition on hover */
+}
+
+.gotoButton:hover {
+  background-color: #732d91; /* Slightly darker purple on hover */
+}
+
+.layoutContainer {
+  position: relative; /* This makes it the reference for absolutely positioned children */
+  min-height: 100vh; /* Ensure it at least covers the viewport height */
+  width: 100%; /* Ensure it covers the full width */
+}
