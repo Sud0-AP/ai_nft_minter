@@ -23,7 +23,7 @@ Check out the live demo of the project [here](https://ai-nft-minter-website.verc
 
 ## Getting Started
 
-Follow these instructions to get a copy of the project up and running on your local machine.
+This project was set up using [Alchemy's Create Web3 Dapp](https://createweb3dapp.alchemy.com/), which makes it incredibly easy to bootstrap a new Web3 project with all the necessary tools and configurations.
 
 ### Prerequisites
 
@@ -97,6 +97,17 @@ Follow these instructions to get a copy of the project up and running on your lo
 2. **Generate Image**: Enter a description for the image and generate it using the Unsplash API.
 3. **Mint NFT**: Once the image is generated, mint it as an NFT on the Polygon blockchain.
 
+## Using Alchemy's Create Web3 Dapp
+
+This project was bootstrapped using [Alchemy's Create Web3 Dapp](https://createweb3dapp.alchemy.com/), which provides a quick and easy way to start building Web3 applications. It comes with pre-configured settings for Web3 development, including a React frontend, Hardhat for smart contract development, and connections to Alchemy's powerful API services.
+
+### Benefits of Using Create Web3 Dapp
+
+- **Quick Setup**: Instantly create a new Web3 project with a single command.
+- **Pre-configured Tools**: Includes essential tools like Hardhat, Ethers.js, and React, all set up and ready to use.
+- **Scalable Infrastructure**: Seamlessly integrate with Alchemy's APIs for enhanced functionality and scalability.
+- **Comprehensive Documentation**: Access detailed guides and documentation to help you throughout your development journey.
+
 ## Contributing
 
 Feel free to submit issues or pull requests. We welcome contributions to improve this project.
@@ -110,4 +121,3 @@ This project is licensed under the MIT License.
 **Note**: Ensure that all environment variables are set correctly and you have sufficient test MATIC in your Polygon Amoy Testnet account to cover transaction costs.
 
 For any further questions or support, please open an issue or contact the maintainer.
-
